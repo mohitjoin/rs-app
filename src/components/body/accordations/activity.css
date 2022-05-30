@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+.Activity-main-container{
+    width: 100%;
+    min-height: 100px;
+    /* background-color: rgb(166, 190, 211); */
+    border-bottom: 1px solid #EDEDED;
+    display: flex;
+    flex-direction: row;
+}
+.message-name-date{
+    text-align: left;
+    padding: 10px;
+    font-weight: 500;
+}
+.blue-dot{
+    color: #14A9F9;
+    font-size: 2rem;
+    padding: 10px;
+}
+.messanger-name{
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    color: #11132A;
+    margin-top: 10px;
+
+}
+.messanger-date{
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    color: #11132A;
+
+}
+.avatar-div{
+    padding: 25px 10px;
+}

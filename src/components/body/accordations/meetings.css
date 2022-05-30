@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.meetings-main-container{
+    width: 100%;
+    height: 160px;
+    margin-top: 10px;
+    
+}
+.about-meeting-time-div{
+    display: flex;
+    flex-direction: row;
+}
+.dots-3-div{
+    margin: auto;
+   margin-right: 5px;    
+   padding: 5px;
+}
+.about-time-30-min{
+    color: #028CD5;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.project-discovery-call-div
+{
+    color: #192434;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.due-on-time-div{
+    color: rgba(28, 46, 69, 0.6);
+    text-align: left;
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+.avatar-groups-of-attendes{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+}
+.invite-button{
+    margin: auto;
+    margin-left: 15% !important;
+}

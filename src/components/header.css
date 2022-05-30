@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.header-container{
+    display: flex;
+    flex-direction: row;
+     
+    height: 60px;
+    /* box-shadow:  2px 2px 2px rgb(168, 160, 160); */
+   
+}
+.logo{
+     width: 25%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    padding: 20px 40px;
+}
+.search-bar-container{
+    width: 50%;
+    padding: 10px 20px;
+
+
+}
+.main-input-container{
+    background: #F7F7F7;
+    border-radius: 5px;
+   
+
+}
+.main-input-top{
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 0px;
+    background: #F7F7F7;
+}
+.user-info-container{
+    width: 25%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+}
+.image-container{
+    height: 40px;
+    width: 40px;
+     
+}
+.main-image-of-user{
+    height: 100%;
+    /* width: 100%; */
+}
+.name-and-destination{
+    padding: 2px 10px;
+
+}
+.full-name{
+    font-size: 0.90rem;
+     
+font-style: normal;
+font-weight: 600;
+  
+/* or 28px */
+
+ 
+align-items: center;
+
+color: #515252;
+}
+.destination-user{
+    font-size: 0.6rem;
+   
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 122%;
+    /* or 16px */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #11132A;
+
+}
+.arrow-to-profile{
+    align-content: space-evenly;
+    padding: 10px ;
+}
